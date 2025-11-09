@@ -1,0 +1,48 @@
+{
+  "AppVersion": "1.0.26",
+  "ForceUpdate": false,
+  "LinkUpdate": "https://github.com/seu-usuario/seu-app/releases",
+  
+  "Messages": [
+    {
+      "MessageID": 3,
+      "MessageVersion": "2024-01-15-v2",
+      "Title": "📢 Nova Funcionalidade!",
+      "Message": "Agora temos suporte para novos servidores!\n\n• Melhor performance\n• Mais estabilidade\n• Novos países disponíveis",
+      "MessageType": "info",
+      "ShowOnce": true,
+      "Active": true
+    },
+    {
+      "MessageID": 2,
+      "MessageVersion": "2024-01-10-v1", 
+      "Title": "⚠️ Manutenção Programada",
+      "Message": "Faremos uma manutenção no sábado das 02:00 às 04:00.\n\nO serviço pode ficar instável durante este período.",
+      "MessageType": "warning",
+      "ShowOnce": true,
+      "Active": true
+    },
+    {
+      "MessageID": 1,
+      "MessageVersion": "2024-01-05-v1",
+      "Title": "🎉 Bem-vindo!",
+      "Message": "Obrigado por usar nosso app!\n\nAqui você encontrará as melhores configurações para seu uso.",
+      "MessageType": "info",
+      "ShowOnce": true,
+      "Active": false
+    }
+  ],
+  
+  "DialogConfig": {
+    "updateTitle": "📢 Atualização Necessária",
+    "updateMessage": "Nova versão disponível!\n\nNovidades:\n[RELEASE_NOTES]\n\nAtualize para continuar usando.",
+    "infoButton": "Entendi",
+    "updateButton": "Atualizar Agora", 
+    "exitButton": "Sair"
+  },
+
+  "AdMobConfig": {
+    "BannerID": "ca-app-pub-3940256099942544/6300978111",
+    "InterstitialID": "ca-app-pub-3940256099942544/1033173712"
+  }
+}
